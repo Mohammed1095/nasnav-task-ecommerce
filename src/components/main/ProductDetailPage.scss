@@ -1,18 +1,19 @@
 .product-detail {
   display: grid;
-  padding: 5%;
+  padding: 5% 10% 5% 10%;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 3rem;
 
   .product-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 2rem;
 
     .main-image {
       grid-column: 1 / span 2;
       img {
         width: 100%;
+        margin: 0 25% 0 25%;
         height: auto;
         display: block;
       }
