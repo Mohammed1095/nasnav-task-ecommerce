@@ -1,0 +1,23 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  .star {
+    width: 1em;
+    height: 1em;
+    fill: #ffd700; /* golden color */
+    margin-right: 0.25em;
+  }
+
+  .star-empty {
+    fill: #c4c4c4; /* gray color */
+  }
+
+  .filled-stars {
+    width: calc(80% + 0.25em); /* 4 stars out of 5 */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
