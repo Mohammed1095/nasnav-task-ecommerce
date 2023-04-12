@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -22,7 +22,7 @@ body {
 
 .container {
   max-width: 144rem;
-  padding: 0 6.4rem;
+  padding: 0 14rem;
   margin: 0 auto;
 }
 
@@ -31,7 +31,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.background-color-yellow {
+  background-color: #fff100;
+}
+.background-color-black {
+  background-color: #000;
+}
 .primary-navigation-container {
   background-color: #fff100;
 }
@@ -96,6 +101,9 @@ body {
 }
 
 /* call to action in header */
+.background-color-white {
+  background-color: #fff;
+}
 .cta {
   justify-content: space-between;
   color: #000;
