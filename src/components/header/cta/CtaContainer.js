@@ -4,7 +4,7 @@ import {
   cartIcon,
   loginIcon,
   wishListIcon,
-} from "../../../icons/header-icons";
+} from "../../../assets/icons/header-icons";
 import SearchComponent from "./components/SearchComponent";
 import Cta from "./components/Cta";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { arrowLeft, arrowRight } from "../../../../icons/header-icons";
+import { arrowLeft, arrowRight } from "../../../../assets/icons/header-icons";
 
 function CtaShopNow() {
   return (

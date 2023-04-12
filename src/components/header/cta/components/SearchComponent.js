@@ -1,5 +1,5 @@
 import React from "react";
-import { searchIcon } from "../../../../icons/header-icons";
+import { searchIcon } from "../../../../assets/icons/header-icons";
 
 function SearchComponent() {
   return (

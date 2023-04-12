@@ -1,5 +1,5 @@
 import React from "react";
-import { LogoYeshtry, hambruger } from "../../../../icons/header-icons";
+import { LogoYeshtry, hambruger } from "../../../../assets/icons/header-icons";
 function Logo() {
   return (
     <div className="primary-header">

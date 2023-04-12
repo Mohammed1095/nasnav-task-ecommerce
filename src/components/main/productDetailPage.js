@@ -9,25 +9,25 @@ const ProductDetailPage = () => {
         <div className="product-images">
           <div className="main-image">
             <img
-              src={require("../../images/Group 333/Group 333@2x.png")}
+              src={require("../../assets/images/Group 333/Group 333@2x.png")}
               alt="Product Image"
             />
           </div>
           <div className="preview-images">
             <img
-              src={require("../../images/Group 333/Group 333.png")}
+              src={require("../../assets/images/Group 333/Group 333.png")}
               alt="Product Preview 1"
             />
             <img
-              src={require("../../images/Group 335/Group 335.png")}
+              src={require("../../assets/images/Group 335/Group 335.png")}
               alt="Product Preview 2"
             />
             <img
-              src={require("../../images/Group 331/Group 331.png")}
+              src={require("../../assets/images/Group 331/Group 331.png")}
               alt="Product Preview 3"
             />
             <img
-              src={require("../../images/Group 329/Group 329.png")}
+              src={require("../../assets/images/Group 329/Group 329.png")}
               alt="Product Preview 4"
             />
           </div>
@@ -35,7 +35,7 @@ const ProductDetailPage = () => {
         <div className="product-details">
           <div className="logo">
             <img
-              src={require("../../images/Group 346/Group 346.png")}
+              src={require("../../assets/images/Group 346/Group 346.png")}
               alt="Logo"
             />
           </div>
