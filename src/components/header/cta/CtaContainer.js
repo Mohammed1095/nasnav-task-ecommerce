@@ -10,16 +10,18 @@ import Cta from "./components/Cta";
 
 function CtaContainer() {
   return (
-    <div className="container cta-container">
-      <div className="cta flex-center">
-        <SearchComponent />
-        <div className="logo">{addidas}</div>
-        <div className="cta-btns-list flex-center">
-          <ul className="cta-btns-ul flex-center">
-            <Cta icon={cartIcon}>Cart</Cta>
-            <Cta icon={wishListIcon}>Wishlist</Cta>
-            <Cta icon={loginIcon}>Login</Cta>
-          </ul>
+    <div className="background-color-white">
+      <div className="container cta-container">
+        <div className="cta flex-center">
+          <SearchComponent />
+          <div className="logo">{addidas}</div>
+          <div className="cta-btns-list flex-center">
+            <ul className="cta-btns-ul flex-center">
+              <Cta icon={cartIcon}>Cart</Cta>
+              <Cta icon={wishListIcon}>Wishlist</Cta>
+              <Cta icon={loginIcon}>Login</Cta>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
