@@ -28,6 +28,46 @@ function App() {
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: "https://via.placeholder.com/300x300.png?text=Product+3",
     },
+    {
+      id: 4,
+      title: "Product 4",
+      price: "$29.99",
+      description:
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+    },
+    {
+      id: 5,
+      title: "Product 5",
+      price: "$29.99",
+      description:
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+    },
+    {
+      id: 6,
+      title: "Product 5",
+      price: "$29.99",
+      description:
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+    },
+    {
+      id: 7,
+      title: "Product 5",
+      price: "$29.99",
+      description:
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+    },
+    {
+      id: 8,
+      title: "Product 5",
+      price: "$29.99",
+      description:
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+    },
   ];
 
   const handleAddToCart = (productId) => {

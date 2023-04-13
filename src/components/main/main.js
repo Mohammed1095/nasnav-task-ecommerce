@@ -6,7 +6,7 @@ import ProductDetailPage from "./productDetailPage";
 export default function Main(props) {
   return (
     <main className="container">
-      <ProductDetailPage />
+      <ProductDetailPage onAddToCart={props.onAddToCart} />
       <ProductList products={props.products} />
     </main>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 import cashOnDelivery from "../../assets/icons/cashOnDelivery.png";
 import visa from "../../assets/icons/visa.png";
 import mastercard from "../../assets/icons/mastercard.png";

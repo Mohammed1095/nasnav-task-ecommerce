@@ -5,13 +5,13 @@ import ProductSizes from "./components/ProductSizes/productSizes";
 import ProductColors from "./components/ProductColors/productColor";
 import QuantityBox from "./components/productQuantity/quantityBox";
 
-const ProductDetailPage = () => {
+const ProductDetailPage = (props) => {
   return (
     <div className="product-detail">
       <div className="product-images">
         <div className="main-image">
           <img
-            src={require("../../assets/images/Group 333/Group 333@2x.png")}
+            src={require("../../assets/icons/shirtCart.png")}
             alt="Product Image"
           />
         </div>
@@ -64,7 +64,12 @@ const ProductDetailPage = () => {
             <QuantityBox />
           </div>
           <div className="product-actions">
-            <button className="add-to-cart-btn">Add to Cart</button>
+            <button
+              className="add-to-cart-btn"
+              onClick={() => props.onAddToCart()}
+            >
+              Add to Cart
+            </button>
             <button className="pick-from-store-btn">Pickup From Store</button>
           </div>
         </div>

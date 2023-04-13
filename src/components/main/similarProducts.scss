@@ -1,5 +1,4 @@
 .product-list-container {
-  overflow-x: scroll;
   margin: 2rem 2rem;
   max-width: 144rem;
 }
@@ -25,15 +24,18 @@
 
 .product-list {
   white-space: nowrap;
+  overflow-x: scroll;
   font-size: 0;
   display: flex;
+  flex-shrink: 0;
+  gap: 2rem;
   justify-content: space-between;
-  padding: 5% 10%;
   max-width: 144rem;
-  padding: 0 14rem;
-  margin: 0 auto;
+  margin: 0 14rem;
 
   &::-webkit-scrollbar {
+    margin: 1rem 0;
+    padding: 0 14rem;
     height: 0.5rem;
     width: inherit;
   }
