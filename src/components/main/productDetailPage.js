@@ -3,6 +3,8 @@ import "./ProductDetailPage.scss";
 import RatingDisplay from "./components/ratingDisplay/RatingDisplay";
 import ProductSizes from "./components/ProductSizes/productSizes";
 import ProductColors from "./components/ProductColors/productColor";
+import QuantityBox from "./components/productQuantity/quantityBox";
+
 const ProductDetailPage = () => {
   return (
     <div className="product-detail">
@@ -58,7 +60,13 @@ const ProductDetailPage = () => {
           <div className="product-colors">
             <ProductColors />
           </div>
-          <button className="add-to-cart-btn">Add to Cart</button>
+          <div className="product-quantity">
+            <QuantityBox />
+          </div>
+          <div className="product-actions">
+            <button className="add-to-cart-btn">Add to Cart</button>
+            <button className="pick-from-store-btn">Pickup From Store</button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,56 @@
+.quantity-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  border: 0.1rem solid #ccc;
+  border-radius: 1.5rem;
+  height: 3rem;
+  width: 15rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+
+  &_label {
+    display: block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1d1d1b;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+    border: none;
+    background: #fff200 0% 0% no-repeat padding-box;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #ddd;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+
+  &__quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 2.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+}
