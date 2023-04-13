@@ -47,7 +47,7 @@ const Overlay = ({ onClose, onShowModal, onShowCart, onOverFlow }) => {
               <p className="product-description">
                 Lorem ipsum dolor sit amet, consecte adipiscing elit.
               </p>
-              <p className="product-quanitity">Quantity: 1</p>
+              <p className="product-quantity">Quantity: 1</p>
               <div className="price-remove">
                 <span className="price">9,999 LE</span>
                 <button className="btn-remove">remove</button>
