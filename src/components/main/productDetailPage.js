@@ -1,7 +1,8 @@
 import React from "react";
 import "./ProductDetailPage.scss";
 import RatingDisplay from "./components/ratingDisplay/RatingDisplay";
-
+import ProductSizes from "./components/ProductSizes/productSizes";
+import ProductColors from "./components/ProductColors/productColor";
 const ProductDetailPage = () => {
   return (
     <div className="product-detail">
@@ -50,6 +51,12 @@ const ProductDetailPage = () => {
             <p className="product-current-price">9,999 LE</p>
             <p className="product-discount-price">6,999 LE</p>
             <div className="product-discount-percentage">30% off</div>
+          </div>
+          <div className="product-sizes">
+            <ProductSizes />
+          </div>
+          <div className="product-colors">
+            <ProductColors />
           </div>
           <button className="add-to-cart-btn">Add to Cart</button>
         </div>

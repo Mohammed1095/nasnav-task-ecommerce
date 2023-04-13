@@ -1,0 +1,31 @@
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.size-component__label {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 1rem auto 0;
+  color: #1d1d1b;
+}
+
+.size {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #542e90;
+
+  &:hover {
+    background: #ececec 0% 0% no-repeat padding-box;
+  }
+}
