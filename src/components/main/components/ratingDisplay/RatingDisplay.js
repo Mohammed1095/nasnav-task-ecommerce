@@ -1,7 +1,6 @@
 import React from "react";
-import starIcon from "../../assets/images/stars-rate.svg";
-import starIconEmpty from "../../assets/images/stars-rate-empty.svg";
-import "./ProductDetailPage.scss";
+import starIcon from "../../../../assets/images/stars-rate.svg";
+import starIconEmpty from "../../../../assets/images/stars-rate-empty.svg";
 
 const RatingDisplay = () => {
   const filledStarCount = 4;

@@ -1,13 +1,13 @@
 import "./App.scss";
 import Header from "../src/components/header/Header";
-import ProductDetailPage from "../src/components/main/productDetailPage";
+import Main from "../src/components/main/main";
 import Footer from "../src/components/footer/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <ProductDetailPage />
+      <Main />
       <Footer />
     </>
   );
