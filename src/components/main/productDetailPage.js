@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProductDetailPage.scss";
+import { adidas } from "../../assets/icons/adidas-logo";
 import RatingDisplay from "./components/ratingDisplay/RatingDisplay";
 import ProductSizes from "./components/ProductSizes/productSizes";
 import ProductColors from "./components/ProductColors/productColor";
@@ -11,7 +12,7 @@ const ProductDetailPage = (props) => {
       <div className="product-images">
         <div className="main-image">
           <img
-            src={require("../../assets/icons/shirtCart.png")}
+            src={require("../../assets/images/main-image.jpg")}
             alt="Product Image"
           />
         </div>
@@ -35,12 +36,7 @@ const ProductDetailPage = (props) => {
         </div>
       </div>
       <div className="product-details">
-        <div className="logo">
-          <img
-            src={require("../../assets/images/Group 346/Group 346.png")}
-            alt="Logo"
-          />
-        </div>
+        <div className="logo">{adidas}</div>
         <div className="product-info">
           <p className="product-description">Adidas black t-shirt</p>
           <p className="product-category">Men</p>

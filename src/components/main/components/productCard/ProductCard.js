@@ -5,10 +5,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className="product-card">
       <div className="product-image-placeholder">
-        <img
-          src={require("../../../../assets/images/Group 346/Group 346.png")}
-          alt="Logo"
-        />
+        <img src={product.image} alt="Logo" />
       </div>
       <div className="product-info">
         <h3 className="product-title">{product.title}</h3>

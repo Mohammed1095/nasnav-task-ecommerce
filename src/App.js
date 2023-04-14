@@ -10,7 +10,7 @@ function App() {
       title: "Product 1",
       price: "$19.99",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+1",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function App() {
       price: "$24.99",
       description:
         "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+2",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ function App() {
       price: "$29.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ function App() {
       price: "$29.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ function App() {
       price: "$29.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 6,
@@ -50,7 +50,7 @@ function App() {
       price: "$29.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 7,
@@ -58,7 +58,7 @@ function App() {
       price: "$29.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 8,
@@ -66,7 +66,7 @@ function App() {
       price: "$29.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "https://via.placeholder.com/300x300.png?text=Product+3",
+      image: require("../src/assets/icons/shirtCart.png"),
     },
   ];
 

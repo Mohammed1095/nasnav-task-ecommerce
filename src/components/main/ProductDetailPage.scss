@@ -6,26 +6,25 @@
   grid-gap: 3rem;
   max-width: 144rem;
 
-  .product-image {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+  .product-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 
     .main-image {
       grid-column: 1 / span 2;
+      overflow: hidden;
+      border-radius: 1rem;
       img {
         width: 100%;
-        margin: 0 25% 0 25%;
-        height: auto;
-        display: flex;
-        justify-content: center;
+        height: 40rem;
       }
     }
 
     .preview-image {
       img {
-        width: 80%;
-        height: auto;
+        width: 23%;
+        height: 12rem;
         display: block;
         margin: auto;
         cursor: pointer;
@@ -44,12 +43,11 @@
     align-items: start;
 
     .logo {
-      width: 80px;
-      height: 80px;
+      background: transparent 0% 0% no-repeat padding-box;
       margin-bottom: 1rem;
       img {
-        width: 100%;
-        height: auto;
+        height: 12rem;
+        width: 12rem;
         display: block;
       }
     }
