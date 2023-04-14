@@ -9,7 +9,7 @@ function App() {
     {
       id: 1,
       title: "Product 1",
-      price: "$19.99",
+      price: "19.99",
       description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       image: require("../src/assets/icons/shirtCart.png"),
       brandLogo: { adidas },
@@ -17,42 +17,42 @@ function App() {
     {
       id: 2,
       title: "Product 2",
-      price: "$24.99",
+      price: "24.99",
       description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 3,
       title: "Product 3",
-      price: "$29.99",
+      price: "29.99",
       description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 4,
       title: "Product 4",
-      price: "$29.99",
+      price: "29.99",
       description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 5,
       title: "Product 5",
-      price: "$29.99",
+      price: "29.99",
       description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 6,
       title: "Product 5",
-      price: "$29.99",
+      price: "29.99",
       description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       image: require("../src/assets/icons/shirtCart.png"),
     },
     {
       id: 7,
       title: "Product 5",
-      price: "$29.99",
+      price: "59.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: require("../src/assets/icons/shirtCart.png"),
@@ -60,7 +60,7 @@ function App() {
     {
       id: 8,
       title: "Product 5",
-      price: "$29.99",
+      price: "59.99",
       description:
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: require("../src/assets/icons/shirtCart.png"),
