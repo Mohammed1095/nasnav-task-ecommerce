@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nasnav-task-ecommerce/static/css/main.d6eb530c.css",
+    "main.js": "/nasnav-task-ecommerce/static/js/main.bde3a230.js",
+    "static/js/787.6ac07b09.chunk.js": "/nasnav-task-ecommerce/static/js/787.6ac07b09.chunk.js",
+    "static/media/main-image.jpg": "/nasnav-task-ecommerce/static/media/main-image.dc94aba431f0a9e008b8.jpg",
+    "static/media/shirtCart.png": "/nasnav-task-ecommerce/static/media/shirtCart.1b81ca1b8ffa78aad11a.png",
+    "static/media/Group 333.png": "/nasnav-task-ecommerce/static/media/Group 333.e354c594db9e6ed01c55.png",
+    "static/media/Group 331.png": "/nasnav-task-ecommerce/static/media/Group 331.522cad545be1d70b3941.png",
+    "static/media/Group 335.png": "/nasnav-task-ecommerce/static/media/Group 335.abc087e0e6efa28b253a.png",
+    "static/media/Group 329.png": "/nasnav-task-ecommerce/static/media/Group 329.4dcf49a9bdc4d15b4edd.png",
+    "static/media/cashOnDelivery.png": "/nasnav-task-ecommerce/static/media/cashOnDelivery.cec11a332a2d8055e193.png",
+    "index.html": "/nasnav-task-ecommerce/index.html",
+    "static/media/stars-rate.svg": "/nasnav-task-ecommerce/static/media/stars-rate.a57746a230bea1dfd072f04fb952bd1d.svg",
+    "static/media/stars-rate-empty.svg": "/nasnav-task-ecommerce/static/media/stars-rate-empty.d4dacc143104cf8a311e5fe998e5b721.svg",
+    "main.d6eb530c.css.map": "/nasnav-task-ecommerce/static/css/main.d6eb530c.css.map",
+    "main.bde3a230.js.map": "/nasnav-task-ecommerce/static/js/main.bde3a230.js.map",
+    "787.6ac07b09.chunk.js.map": "/nasnav-task-ecommerce/static/js/787.6ac07b09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6eb530c.css",
+    "static/js/main.bde3a230.js"
+  ]
+}
